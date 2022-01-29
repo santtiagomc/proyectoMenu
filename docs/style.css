@@ -161,8 +161,7 @@ footer {
         type=checkbox]:fous {
         background:none;
     }
-    label { 
-        float: right;
+    label {
         padding: 8px 0px;
         display: inline-block;
         cursor: pointer;
