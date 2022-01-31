@@ -64,6 +64,9 @@ nav ul li a {
     display: inline-block;
     transition: all 0.5s ease 0s;
 }
+#logo:hover {
+    color: #ffffff;
+}
 nav ul li a:hover {
     background-color: #002e5b;
     color: #ffffff;
@@ -119,28 +122,6 @@ input, label {
     line-height: 22px;
     color: #002e5b;
     text-align: justify;
-}
-footer {
-    display: table;
-    padding-bottom: 30px;
-    width: 100%;
-}
-.social {
-    margin: 0px auto;
-    display: table;
-    display: table;
-}
-.social li {
-    float: left;
-    padding: 0px 10px;
-}
-.social li a {
-    color: #002e5b;
-    transition: all 0.5s ease 0s;
-}
-.social li a:hover {
-    color: #fde428;
-    transition: all 0.5s ease 0s;
 }
 @media only screen and (max-width: 1440px) {
     section {
