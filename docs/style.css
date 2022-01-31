@@ -65,8 +65,12 @@ nav ul li a {
     transition: all 0.5s ease 0s;
 }
 nav ul li a:hover {
-    background-color: #474747;
+    background-color: #002e5b;
     color: #ffffff;
+    transition: all 0.5s ease 0s;
+}
+nav ul li a:hover i {
+    color: #fde428;
     transition: all 0.5s ease 0s;
 }
 nav ul li a i {
@@ -90,6 +94,9 @@ nav ul li a i {
 .toggle-menu ul li:last-child {
     margin-bottom: 0px;
 }
+input [
+    type=checkbox
+],
 input, label {
     display: none;
 }
@@ -110,7 +117,7 @@ input, label {
 .content p {
     font-size: 14px;
     line-height: 22px;
-    color: #002e5b;
+    color: #7c7c7c;
     text-align: justify;
 }
 footer {
@@ -132,7 +139,7 @@ footer {
     transition: all 0.5s ease 0s;
 }
 .social li a:hover {
-    color: #ffffff;
+    color: #fde428;
     transition: all 0.5s ease 0s;
 }
 @media only screen and (max-width: 1440px) {
