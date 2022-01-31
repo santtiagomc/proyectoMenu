@@ -9,6 +9,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
 }
 section {
     width: 100%;
@@ -31,7 +32,7 @@ h1 span {
 header {
     width: 100%;
     display: table;
-    background-color: #fde428;
+    border: 2px solid #474747;
     margin-bottom: 50px;
 }
 #logo {
@@ -64,12 +65,8 @@ nav ul li a {
     transition: all 0.5s ease 0s;
 }
 nav ul li a:hover {
-    background-color: #002e5b;
-    color: #fde428;
-    transition: all 0.5s ease 0s;
-}
-nav ul li a:hover i {
-    color: #fde428;
+    background-color: #474747;
+    color: #ffffff;
     transition: all 0.5s ease 0s;
 }
 nav ul li a i {
@@ -93,9 +90,6 @@ nav ul li a i {
 .toggle-menu ul li:last-child {
     margin-bottom: 0px;
 }
-input [
-    type=checkbox
-],
 input, label {
     display: none;
 }
@@ -116,7 +110,7 @@ input, label {
 .content p {
     font-size: 14px;
     line-height: 22px;
-    color: #7c7c7c;
+    color: #002e5b;
     text-align: justify;
 }
 footer {
@@ -138,7 +132,7 @@ footer {
     transition: all 0.5s ease 0s;
 }
 .social li a:hover {
-    color: #fde428;
+    color: #ffffff;
     transition: all 0.5s ease 0s;
 }
 @media only screen and (max-width: 1440px) {
